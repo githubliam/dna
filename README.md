@@ -18,7 +18,6 @@ The DNA core tech team, the community, and the ecosystem can all support you in 
 
 DNA makes getting started easier!
 
-And new features are still rapidly under development. The master branch may be unstable, but stable versions can be found under the [release page](https://github.com/dnaproject2/DNA/releases).
 
 We openly welcome developers to DNA.
 
