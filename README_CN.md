@@ -8,9 +8,7 @@
 
 DNA致力于创建一个组件化、可自由配置、跨链支持、高性能、横向可扩展的区块链底层基础设施。 让部署及调用分布式应用变得更加非常简单。
 
-但很多新的功能还处于快速的开发过程中，master分支的代码可能是不稳定的，稳定的版本可以在[releases](https://github.com/dnaproject2/DNA/releases)中下载。
-
-非常欢迎及希望能有更多的开发者加入到DNA中来。
+常欢迎及希望能有更多的开发者加入到DNA中来。
 
 ## 特性
 
@@ -26,9 +24,6 @@ DNA致力于创建一个组件化、可自由配置、跨链支持、高性能�
 ## 目录
 
 * [构建开发环境](#构建开发环境)
-* [获取DNA](#获取DNA)
-    * [从release获取](#从release获取)
-    * [从源码获取](#从源码获取)
 * [运行DNA](#运行DNA)
     * [测试模式](#测试模式)
 * [使用示例](#使用示例)
@@ -44,35 +39,6 @@ DNA致力于创建一个组件化、可自由配置、跨链支持、高性能�
 * 正确的Go语言开发环境
 * Golang所支持的操作系统
 
-## 获取DNA
-
-### 从release获取
-- 你可以从[下载页面](https://github.com/dnaproject2/DNA/releases)获取.
-
-### 从源码获取
-克隆DNA仓库到 **$GOPATH/src/github.com/dnaproject2** 目录
-
-```shell
-$ git clone https://github.com/dnaproject2/DNA.git
-```
-或者
-```shell
-$ go get github.com/dnaproject2/DNA
-```
-
-用第三方包管理工具glide拉取依赖库
-
-````shell
-$ cd $GOPATH/src/github.com/dnaproject2/DNA
-$ glide install
-````
-
-如果项目有新的第三方依赖包，使用glide更新依赖库
-
-````shell
-$ cd $GOPATH/src/github.com/dnaproject2/DNA
-$ glide update
-````
 
 用make编译源码
 
