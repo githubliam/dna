@@ -55,47 +55,7 @@ The requirements to build DNA are:
 - Properly configured Go language environment
 - Golang supported operating system
 
-## Get DNA
 
-### Get from release
-
-- You can download other versions at [release page](https://github.com/dnaproject2/DNA/releases).
-
-### Get from source code
-
-Clone the DNA repository into the appropriate $GOPATH/src/github.com/dnaproject2 directory.
-
-```
-$ git clone https://github.com/dnaproject2/DNA.git
-```
-or
-```
-$ go get github.com/dnaproject2/DNA
-```
-Fetch the dependent third party packages with glide.
-
-```
-$ cd $GOPATH/src/github.com/dnaproject2/DNA
-$ glide install
-```
-
-If necessary, update dependent third party packages with glide.
-
-```
-$ cd $GOPATH/src/github.com/dnaproject2/DNA
-$ glide update
-```
-
-Build the source code with make.
-
-```
-$ make all
-```
-
-After building the source code sucessfully, you should see two executable programs:
-
-- `DNA`: the node program/command line program for node control.
-- `tools/sigsvr`: (optional) DNA Signature Server - sigsvr is a RPC server for signing transactions for some special requirements. Detailed docs can be found [here](https://github.com/dnaproject2/documentation/blob/master/docs/pages/doc_en/DNA/sigsvr_en.md).
 
 ## Run DNA
 
